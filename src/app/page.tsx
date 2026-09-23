@@ -19,12 +19,12 @@ export default function HomePage() {
       <HeroSection />
       <PhilosophySection />
       <TickerSection />
-      <IndustriesSection />
-      <ProcessSection />
       <ShowcaseSection />
       <WorkSection />
-      <WhySection />
+      <IndustriesSection />
+      <ProcessSection />
       <ToolsSection />
+      <WhySection />
       <TestimonialsSection />
       <CtaSection />
     </>

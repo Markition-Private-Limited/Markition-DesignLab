@@ -70,7 +70,7 @@ export function Header() {
   const [mobileOpen, setMobileOpen] = useState(false);
 
   return (
-    <header className="relative z-50 px-3 sm:px-4 pt-3 sm:pt-4">
+    <header className="fixed top-0 left-0 right-0 z-50 px-3 sm:px-4 pt-3 sm:pt-4">
 
       {/* Floating nav box */}
       <nav

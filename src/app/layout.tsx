@@ -23,7 +23,7 @@ export default function RootLayout({
     <html lang="en" className={`${jakarta.variable} h-full antialiased`}>
       <body className="flex min-h-full flex-col bg-white text-gray-900">
         <SmoothScrollProvider>
-          {/* <Header /> — hidden temporarily */}
+          <Header />
           <main className="flex-1">{children}</main>
           <Footer />
         </SmoothScrollProvider>

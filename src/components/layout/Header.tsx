@@ -45,23 +45,25 @@ function StaircaseIcon() {
 }
 
 const floatStyle: React.CSSProperties = {
-  background: "rgba(25, 45, 110, 0.45)",
-  backdropFilter: "blur(28px) saturate(2)",
-  WebkitBackdropFilter: "blur(28px) saturate(2)",
-  border: "1px solid rgba(255,255,255,0.14)",
-  boxShadow: "0 4px 32px rgba(0,0,0,0.15)",
+  background: "rgba(8, 15, 50, 0.32)",
+  backdropFilter: "blur(52px) saturate(2.8) brightness(1.1)",
+  WebkitBackdropFilter: "blur(52px) saturate(2.8) brightness(1.1)",
+  border: "1px solid rgba(255,255,255,0.22)",
+  boxShadow: "inset 0 1.5px 0 rgba(255,255,255,0.28), inset 0 -1px 0 rgba(255,255,255,0.04), 0 8px 48px rgba(0,0,0,0.18)",
 };
 
 const mobileMenuStyle: React.CSSProperties = {
-  background: "rgba(8, 14, 38, 0.97)",
-  backdropFilter: "blur(24px)",
-  WebkitBackdropFilter: "blur(24px)",
-  border: "1px solid rgba(255,255,255,0.08)",
+  background: "rgba(255, 255, 255, 0.07)",
+  backdropFilter: "blur(52px) saturate(2.8)",
+  WebkitBackdropFilter: "blur(52px) saturate(2.8)",
+  border: "1px solid rgba(255,255,255,0.18)",
+  boxShadow: "inset 0 1.5px 0 rgba(255,255,255,0.2)",
 };
 
 const ctaStyle: React.CSSProperties = {
-  background: "rgba(255,255,255,0.08)",
-  border: "1px solid rgba(255,255,255,0.18)",
+  background: "rgba(255,255,255,0.1)",
+  border: "1px solid rgba(255,255,255,0.24)",
+  boxShadow: "inset 0 1px 0 rgba(255,255,255,0.2)",
 };
 
 export function Header() {

@@ -165,10 +165,10 @@ function ScrollColumn({ images, speed, initOffset }: ColProps) {
 /* ── HeroSection ─────────────────────────────────────────────────────────── */
 export function HeroSection() {
   return (
-    <section className="relative h-screen overflow-hidden bg-white flex items-center">
+    <section className="relative h-screen overflow-hidden bg-white flex items-start">
 
       {/* Left — copy */}
-      <div className="relative z-10 flex flex-col justify-center px-8 md:px-16 xl:px-24 w-full lg:w-[52%] xl:w-[48%]">
+      <div className="relative z-10 flex flex-col justify-center px-8 md:px-16 xl:px-24 w-full lg:w-[52%] xl:w-[48%] pt-[88px]">
 
         <h1
           className="font-extrabold leading-[1.05] tracking-tight text-gray-900 hero-fade"

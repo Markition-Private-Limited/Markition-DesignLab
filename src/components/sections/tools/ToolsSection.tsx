@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 
 const BLUE = "#1236E8";
 const CDN  = "https://thesvg.org/icons";
@@ -88,7 +88,7 @@ type ImgTool = {
 type InlineTool = {
   name: string;
   kind: "inline";
-  Icon: () => JSX.Element;
+  Icon: () => React.ReactElement;
 };
 type Tool = ImgTool | InlineTool;
 
@@ -128,7 +128,6 @@ function ToolPill({ tool, visible, index }: { tool: Tool; visible: boolean; inde
         boxShadow:  hovered
           ? `0 0 0 3px ${BLUE}18, 0 6px 20px rgba(18,54,232,0.09)`
           : "0 1px 4px rgba(0,0,0,0.05)",
-        transform:  hovered ? "translateY(-3px)" : "translateY(0)",
         transition: `border-color 0.22s ease, box-shadow 0.22s ease,
                      opacity 0.55s ease ${delay}ms, transform 0.55s ease ${delay}ms`,
         opacity:   visible ? 1 : 0,

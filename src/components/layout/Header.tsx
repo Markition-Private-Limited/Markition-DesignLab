@@ -45,11 +45,11 @@ function StaircaseIcon() {
 }
 
 const floatStyle: React.CSSProperties = {
-  background: "rgba(8, 14, 38, 0.88)",
-  backdropFilter: "blur(24px) saturate(1.8)",
-  WebkitBackdropFilter: "blur(24px) saturate(1.8)",
-  border: "1px solid rgba(255,255,255,0.08)",
-  boxShadow: "0 4px 32px rgba(0,0,0,0.3)",
+  background: "rgba(25, 45, 110, 0.45)",
+  backdropFilter: "blur(28px) saturate(2)",
+  WebkitBackdropFilter: "blur(28px) saturate(2)",
+  border: "1px solid rgba(255,255,255,0.14)",
+  boxShadow: "0 4px 32px rgba(0,0,0,0.15)",
 };
 
 const mobileMenuStyle: React.CSSProperties = {

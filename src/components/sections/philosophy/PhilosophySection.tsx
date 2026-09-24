@@ -98,6 +98,7 @@ function PhilosophyCard({ title, body }: { title: string; body: string }) {
 export function PhilosophySection() {
   return (
     <section
+      data-navbar-theme="dark"
       className="py-28 px-8 md:px-16 xl:px-24"
       style={{ background: BG }}
     >

@@ -252,7 +252,7 @@ export function Footer() {
           {/* Logo */}
           <Link href="/" aria-label="Markition — Home" className="flex-shrink-0">
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src="/markition-logo.svg" alt="Markition" className="h-[30px] w-auto" />
+            <img src="/Logo_design 2.png" alt="Markition" className="h-[30px] w-auto" />
           </Link>
 
           {/* Nav links */}

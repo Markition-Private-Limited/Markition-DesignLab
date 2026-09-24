@@ -253,7 +253,7 @@ export function TestimonialsSection() {
   const doubled = [...TESTIMONIALS, ...TESTIMONIALS];
 
   return (
-    <section style={{ background: BG, padding: "64px 0 80px" }}>
+    <section data-navbar-theme="light" style={{ background: BG, padding: "64px 0 80px" }}>
       {/* Heading */}
       <div style={{ maxWidth: 1200, margin: "0 auto", padding: "0 24px 48px", textAlign: "center" }}>
         <h2

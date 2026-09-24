@@ -176,6 +176,7 @@ export function ShowcaseSection() {
   return (
     <section
       ref={sectionRef}
+      data-navbar-theme="light"
       style={{ background: "#E2FAFF" }}
       className="py-20 sm:py-28 lg:py-32"
     >

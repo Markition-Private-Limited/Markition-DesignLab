@@ -186,7 +186,7 @@ export function ToolsSection() {
   }, []);
 
   return (
-    <section ref={sectionRef} className="bg-white py-20 sm:py-28 lg:py-32">
+    <section ref={sectionRef} data-navbar-theme="light" className="bg-white py-20 sm:py-28 lg:py-32">
       <div className="mx-auto px-5 sm:px-8 lg:px-10" style={{ maxWidth: 1280 }}>
 
         {/* ── Heading ── */}

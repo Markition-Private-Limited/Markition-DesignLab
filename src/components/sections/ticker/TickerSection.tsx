@@ -34,6 +34,7 @@ const TRACK = [...ITEMS, ...ITEMS];
 export function TickerSection() {
   return (
     <div
+      data-navbar-theme="light"
       className="overflow-hidden py-3 select-none"
       style={{ background: "#20D9FF" }}
     >

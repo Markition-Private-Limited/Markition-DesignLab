@@ -4,7 +4,7 @@ const BLUE = "#1236E8";
 
 export function CtaSection() {
   return (
-    <section className="bg-white px-5 py-16 sm:px-8 sm:py-20 lg:px-10 lg:py-24">
+    <section data-navbar-theme="light" className="bg-white px-5 py-16 sm:px-8 sm:py-20 lg:px-10 lg:py-24">
       <div className="mx-auto max-w-7xl">
         <div className="lg:relative lg:overflow-hidden lg:rounded-[28px]">
           {/* Collage image — the card itself (full, uncropped) */}

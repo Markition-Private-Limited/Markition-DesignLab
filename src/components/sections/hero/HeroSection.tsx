@@ -165,7 +165,7 @@ function ScrollColumn({ images, speed, initOffset }: ColProps) {
 /* ── HeroSection ─────────────────────────────────────────────────────────── */
 export function HeroSection() {
   return (
-    <section className="relative h-screen overflow-hidden bg-white flex items-start">
+    <section data-navbar-theme="light" className="relative h-screen overflow-hidden bg-white flex items-start">
 
       {/* Left — copy */}
       <div className="relative z-10 flex flex-col justify-center px-8 md:px-16 xl:px-24 w-full lg:w-[52%] xl:w-[48%] pt-[88px]">
@@ -174,9 +174,6 @@ export function HeroSection() {
           className="font-extrabold leading-[1.05] tracking-tight text-gray-900 hero-fade"
           style={{ animationDelay: "0ms" }}
         >
-          <span className="block text-6xl xl:text-7xl mb-1" style={{ color: "#1236E8" }}>
-            DESIGN LAB
-          </span>
           <span className="text-5xl xl:text-6xl">
             Design That Makes<br />
             Your{" "}

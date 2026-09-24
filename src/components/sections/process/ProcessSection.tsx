@@ -244,6 +244,7 @@ export function ProcessSection() {
       style={{ height: `${(STEPS.length + 1) * 100}vh` }}
     >
       <div
+        data-navbar-theme="light"
         className="sticky top-0 w-full overflow-hidden"
         style={{ height: "100vh", background: BG }}
       >

@@ -189,6 +189,7 @@ export function WhySection() {
   return (
     <section
       ref={sectionRef}
+      data-navbar-theme="dark"
       className="py-24 sm:py-32 lg:py-40"
       style={{ background: BG }}
     >

@@ -128,6 +128,7 @@ function IndustryCard({ name, sub, body }: { name: string; sub: string; body: st
 export function IndustriesSection() {
   return (
     <section
+      data-navbar-theme="dark"
       className="py-24 px-8 md:px-16 xl:px-24"
       style={{ background: BG }}
     >
